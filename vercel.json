@@ -1,0 +1,9 @@
+{
+  "trailingSlash": true,
+  "rewrites": [
+    {
+      "source": "/vercelredirects(/.*)?",
+      "destination": "https://theme-vercel-root-route-prefix-repro.vercel.app/vercelredirects$1"
+    }
+  ]
+}
